@@ -6,9 +6,7 @@ This is the Python-based backend service for the **AI Chatbot** of the PTUK Educ
 
 ## 🚀 Overview
 
-The chatbot backend processes user questions in Arabic or English, compares them with a dataset of existing Q&A pairs using semantic similarity, and generates smart answers using a large language model (LLaMA) hosted on Groq.
-
-It is integrated with the main Node.js backend via HTTP API calls.
+The chatbot backend leverages advanced semantic similarity techniques to analyze user queries in both Arabic and English by referencing a curated dataset of question-answer pairs. It then generates contextually accurate and intelligent responses using the LLaMA large language model, deployed on Groq hardware. This system employs a few-shot learning methodology to enhance performance and ensure adaptability across diverse topics. Seamless integration with the primary Node.js backend is achieved through efficient HTTP API communication.
 
 ---
 
