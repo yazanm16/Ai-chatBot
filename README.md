@@ -26,7 +26,7 @@ It is integrated with the main Node.js backend via HTTP API calls.
 ```
 ai_chatbot/
 ├── dataSet.csv                       # Full dataset with questions, answers, context
-├── dataSet_embedding_MiniLM.csv     # Precomputed embeddings for each question
+├── dataSet_embedding_MiniLM.csv     # Precomputed embeddings for each question(search how to converte dataSet.csv to dataSet_embedding_MiniLM.csv )
 ├── chatbot.py                        # Main Flask app (provided above)
 ```
 
